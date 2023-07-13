@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup Page</title>
+<style>
+#tab {
+	 display : flex;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+a,h1{
+display : flex;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+img{
+    margin-left: 600px;
+}
+body{
+background-color: aquamarine;
+}
+
+</style>
+</head>
+<body>
+<img src="https://thumbs.dreamstime.com/z/bank-3d-icon-12912421.jpg" height="150px" width="150px">
+	<h1>Welcome To Signup Page</h1>
+	<br>
+	<form action="customersignup" method="post">
+		<table id="tab">
+			<tr>
+				<td><lebel for="name">Name</lebel></td>
+				<td><input type="text" name="name" id="name"
+					autofocus="autofocus"></td>
+			</tr>
+
+			<tr>
+				<td><lebel for="mobile">Mobile</lebel></td>
+				<td><input type="text" name="mobile" id="mobile"
+					autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td><lebel for="email">Email</lebel></td>
+				<td><input type="email" name="email" id="email"
+					autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td><lebel for="password">Password</lebel></td>
+				<td><input type="password" name="password" id="password"
+					autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td><lebel for="gender">Gender</lebel></td>
+				<td><input type="radio" name="gender" id="gender" value="male"
+					required="required" autofocus="autofocus">Male <input
+					type="radio" name="gender" id="gender" value="female"
+					required="required" autofocus="autofocus">Female</td>
+			</tr>
+			<tr>
+				<td><lebel for="dob">DOB</lebel></td>
+				<td><input type="date" name="dob" id="dob" required="required"
+					autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td><button type="reset">Cancel</button>
+					<button>Signup</button></td>
+			</tr>
+			
+			
+		</table>
+<tr>
+				<td><a href="login.html">Already have Account? Click here
+						to Signup</a></td>
+				<td><a href="home.html"><button>Home</button></a></td>
+			</tr>
+	</form>
+
+</body>
+</html>
